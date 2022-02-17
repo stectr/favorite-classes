@@ -22,8 +22,8 @@ function Home(props) {
     }
 
     return (
-        <div>
-            <h1>Hello World!</h1>
+        <div className='whole-background'>
+            <h1>Steven's Favorite Classes</h1>
             <form onSubmit={handleSubmit}>
                 <label>Add Favorite Classes</label>
                 <input type='text' value={value} onChange={handleChange}></input>
