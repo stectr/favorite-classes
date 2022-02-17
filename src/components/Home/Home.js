@@ -22,7 +22,7 @@ function Home(props) {
     }
 
     return (
-        <div className='whole-background'>
+        <div className='title-bar'>
             <h1>Steven's Favorite Classes</h1>
             <form onSubmit={handleSubmit}>
                 <label>Add Favorite Classes</label>
