@@ -1,5 +1,26 @@
 .class {
-    width: 10%;
-    height: 50px;
+    padding: 1%;
+    width: 50%;
+    height: fit-content;
     background-color: red;
+}
+
+.information {
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#title {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#department {
+    font-size: small;
+    padding: 0%;
+}
+
+#description {
+    font-size: small;
 }
